@@ -38,13 +38,26 @@
         text-align: center;
       }
       .d2a{
-        margin-top: 22px;
+        margin-top: 44px;
       }
       .d2a2{
         display: none;
       }
       h4:hover{
         cursor: pointer;
+      }
+      .d2b{
+        margin-top: 22px;
+      }
+      .d2c{
+        margin-top: 22px;
+      }
+      textarea{
+        resize: none;
+      }
+      .d2d{
+        text-align: center;
+        margin-top: 12px;
       }
      
 
@@ -63,7 +76,7 @@
 </head>
 <body>
      <div class="d1">
-        <div class="d1a"><h4>X</h4>
+        <div class="d1a"><h4 id="h4">X</h4>
           <div class="d1a2">
            <a href="#">LogIn</a>
            <a href="#">SignUp</a>
@@ -87,6 +100,18 @@
             <div class="d2a2">
                 <h4>Call:<a href="tel:9818859757">Make an call</a></h4>
             </div>
+        </div>
+        <div class="d2b">
+            <h4>Mail:xxxx@gmail.com</h4>
+        </div>
+        <div class="d2c">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Write to us " id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Write to us</label>
+              </div>
+        </div>
+        <div class="d2d">
+            <button id="btn" class="btn btn-success">Submit</button>
         </div>
     </div>
 </body>
